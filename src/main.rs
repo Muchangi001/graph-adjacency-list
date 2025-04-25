@@ -39,7 +39,7 @@ impl Graph {
             print!("Node({}) => ", node);
             for edge in edges {
                 println!(
-                    " Edge(to -> {}, label : {}, timestamp : {})",
+                    "Edge(to -> {}, label : {}, timestamp : {})",
                     edge.metadata.to, edge.metadata.label, edge.metadata.timestamp
                 );
             }
